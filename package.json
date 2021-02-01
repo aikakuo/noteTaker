@@ -1,14 +1,27 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Aika Kuo",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikakuo/noteTaker.git"
+  },
+  "keywords": [
+    "noteTaker"
+  ],
+  "bugs": {
+    "url": "https://github.com/aikakuo/noteTaker/issues"
+  },
+  "homepage": "https://github.com/aikakuo/noteTaker#readme"
 }
