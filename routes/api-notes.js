@@ -51,12 +51,6 @@ module.exports = function(app) {
         fs.writeFile("./db.json", JSON.stringify({highest,notes}), function(err) {
             if (err) throw (err);        
         }); 
-
-        // function newDbNote (notes) {
-        //     fs.readFile(path.join(__dirname , './db.json'),JSON.stringify(notes), err => {
-        //         if (err) throw err;
-        //     });
-        // }
     });
 }
             
