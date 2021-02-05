@@ -47,7 +47,7 @@ module.exports = function(app) {
             notes.splice(index, 1)
             console.log(notes)
             
-            // newDbNote()
+            
         fs.writeFile("./db.json", JSON.stringify({highest,notes}), function(err) {
             if (err) throw (err);        
         }); 
